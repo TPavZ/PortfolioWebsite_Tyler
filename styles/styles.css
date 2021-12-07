@@ -1,35 +1,42 @@
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: #36443eb0;
     position: fixed;
     top: 0;
     width: 100%;
-  }
+    }
   
-  /* Navbar links */
-  #navbar a {
+  
+#navbar a {
     float: left;
     display: block;
     color: #ffffff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
-  }
+    }
  
-  
-  .main-content {
-    padding-top: 35px;
-  }
+.content-background{
+    background-image: url(../styles/images/IMG_3448.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
 
-  h1 {
-    color: rgb(255, 94, 255);
-    font-weight: 600;
-  }
-  section {
-    background-color: #f2f2f2;
+.main-content {
+    padding-top: 35px;
+    }
+
+h1 {
+    color:white;
+    font-weight: 800;
+    }
+  
+section {
     height: 100vh;
     margin:0;
     padding:2.5rem 4rem;
-  }
+    }
   
