@@ -42,12 +42,15 @@ section {
 
 img {
     float: right;
+    margin-right: 110px;
     border-radius: 25px;
     border: 2px solid #ffffff
     }
 
 .text-block{
-    float:left;
+    text-align: center;
+    font-size: 25px;
+    float: left;
     border:2px solid white;
     color: white;
     background-color: rgba(0, 0, 0, 0.507);
